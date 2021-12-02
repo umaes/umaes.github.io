@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Udruženje manjinskih akcionara energetskog sektora (UMAES)">
+    <meta name="author" content="Aleksandar Raspopovic">
+    <title>УМАES - UMAES</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4021e85348.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="novosti-en.html" style="font-weight:bold;">
+                    ESMSA
+                </a>
+                <span class="navbar-burger burger" data-target="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </div>
+            <div id="navMenu" class="navbar-menu">
+                <div class="navbar-start">
+                        <a href="novosti-en.html" class="navbar-item">News</a>
+                        <a href="mediji-en.html" class="navbar-item">Media</a>
+                        <a href="udruzenje-en.html" class="navbar-item">Association</a>
+                        <a href="skupstine-en.html" class="navbar-item">Meetings</a>
+                        <a href="biblioteka-en.html" class="navbar-item is-active">Library</a>
+                        <a href="kontakt-en.html" class="navbar-item">Contact</a>
+                </div>
+                <div class="navbar-end">
+                    <a href="biblioteka-cyr.html" class="navbar-item">ћир</a>
+                    <a href="biblioteka-lat.html" class="navbar-item">lat</a>
+                    <a href="biblioteka-en.html" class="navbar-item is-active">en</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Library
+                </h1>
+                <p>&nbsp;</p>
+                <h2 class="subtitle">
+                    Statutory Documentation
+                </h2>
+                <p>
+                    <a href="pristupnica_umaes_en.pdf">Application Form</a><br>
+                    <a href="odluka-clanarina-2020-en.pdf">Decision on the membership fee for the year of 2020</a><br>
+                    <a href="statut_umaes_lat.pdf">The Articles of the Association</a>
+                </p>
+                <p>&nbsp;</p>
+                <h2 class="subtitle">
+                    Regulation
+                </h2>
+                <p>
+                    <a href="http://www.sec.rs.ba/en/Regulativa/Regulativa.aspx?id=1">Laws, Regulations and Standards (Republic of Srpska Securities Commission)</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                &copy; 2020 Energy Sector Minority Shareholders Association
+            </p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        (function () {
+            var burger = document.querySelector('.burger');
+            var nav = document.querySelector('#' + burger.dataset.target);
+            burger.addEventListener('click', function () {
+                burger.classList.toggle('is-active');
+                nav.classList.toggle('is-active');
+            });
+        })();
+    </script>
+
+</body>
+
+</html>
